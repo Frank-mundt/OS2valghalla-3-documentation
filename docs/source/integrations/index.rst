@@ -99,7 +99,7 @@ To be able to send Digital post the server running the application need to trust
  - ADG_PROD_Adgangsstyring_1
  - The system certificate that is uploaded to the "Anvenedersystem" for the IT system.
 
-It is nesseray that the server trust the hole cerfificate chain. Kombit have ZIP packages with certificates for their test and production environments that can be downloaded here: `Certificates https://digitaliseringskataloget.dk/teknik/certifikater`_ .  
+It is nesseray that the server trust the hole cerfificate chain. Kombit have ZIP packages with certificates for their test and production environments that can be downloaded here: https://digitaliseringskataloget.dk/teknik/certifikater.  
 
 
 **Beskedfordeler**
@@ -112,8 +112,8 @@ Valghalla is using the last option where the Beskedfordeler send the receiptions
 For the Beskedfordeler to be able to sendt receiptions to the endpoint some configuration needs to be done before sending receiptions is possible.
 There is an environment for test and one for production. The configuration will be the same for both environments. Here are the links for the environments:
 
-`Beskedfordeler Test <https://beskedfordeler-ui.eksterntest-stoettesystemerne.dk/ui/sts-bf-ui/#/beskedkatalog>`_
-`Beskedfordeler Production <https://beskedfordeler-ui.stoettesystemerne.dk/ui/sts-bf-ui/#/beskedkatalog>`_ 
+- Beskedfordeler Test: https://beskedfordeler-ui.eksterntest-stoettesystemerne.dk/ui/sts-bf-ui/#/beskedkatalog
+- Beskedfordeler Production: https://beskedfordeler-ui.stoettesystemerne.dk/ui/sts-bf-ui/#/beskedkatalog
 
 The documentation for setting up the Beskedfordeler to hold receiptions and send them the an endpoint can be found here: `Beskedfordeler documentation <https://docs.kombit.dk/integration/sf1461>`_ . A 'get started guide' can be found here: `Get started guide <https://digitaliseringskataloget.dk/files/integration-files/171020221203/Kom%20godt%20i%20gang%20-%20beskedfordeler.pdf>`_ .
 The configuration will include the following:
@@ -128,4 +128,4 @@ The server that hosts the endpoint that the beskedfordeler send receiptions to n
 - BFO_PROD_Beskedfordeler_1
 - the SSL certificate that is attached to the endpoint
 
-It is nesseray that the server trust the hole cerfificate chain. Kombit have ZIP packages with certificates for their test and production environments that can be downloaded here: `Certificates https://digitaliseringskataloget.dk/teknik/certifikater`_ . 
+It is nesseray that the server trust the hole cerfificate chain. Kombit have ZIP packages with certificates for their test and production environments that can be downloaded here: `Certificates <https://digitaliseringskataloget.dk/teknik/certifikater>`_ . 
